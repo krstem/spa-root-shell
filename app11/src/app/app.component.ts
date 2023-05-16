@@ -7,9 +7,9 @@ import { Component, VERSION } from '@angular/core';
       <h1>{{title}}</h1>
       <div>Angular {{ ngVersion.full }}</div>
       <div>
-        [<a routerLink="app11">Home</a>]
-        [<a routerLink="app11/hello">Hello</a>]
-        [<a routerLink="app11/lazy">Lazy</a>]
+        [<a routerLink="angular">Home</a>]
+        [<a routerLink="angular/hello">Hello</a>]
+        [<a routerLink="angular/lazy">Lazy</a>]
       </div>
 
       <router-outlet></router-outlet>
@@ -26,6 +26,6 @@ import { Component, VERSION } from '@angular/core';
   ` ],
 })
 export class AppComponent {
-  title = 'app11';
+  title = 'Angular app';
   ngVersion = VERSION;
 }
